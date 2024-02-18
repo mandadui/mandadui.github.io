@@ -86,7 +86,7 @@ In the "More" tab, I've added dynamic features like digital and analog clocks, a
   <div id="email" onclick="showhideEmail()">Show Udayani's mail</div>
   <a href="/waph.html">Click here to know my Course Work</a>
 
- // greetings.js
+ // wishes.js
 const Greeting = () => {
 const currentHour = new Date().getHours();
 let greetingMessage;
