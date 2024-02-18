@@ -149,26 +149,21 @@ I added "getCookie()" and "setCookie()" functions to personalize messages on my 
 ![Figure1](assets/img/welcomeback.png)
 
 ```js
-<div id="welcome-message"></div>;
-
-// Function to display welcome message based on cookie
-function displayWelcomeMessage() {
-  var lastVisit = getCookie("lastVisit");
-
-  if (!lastVisit) {
-    // First time visit
-    setCookie("lastVisit", new Date(), 365); // Store the current date for future visits
-    document.getElementById("welcome-message").textContent =
-      "Welcome to my homepage!";
+function welcomeUser() {
+  const lastVisitDate = getCookie("lastVisit");
+  const greetingElement = document.getElementById("greetingCookie");
+  if (lastVisitDate) {
+    greetingElement.innerHTML =
+      "Hello again! It's nice to see you back! Your last visit was on " +
+      lastVisitDate +
+      ".";
   } else {
-    // Returning visit
-    document.getElementById("welcome-message").textContent =
-      "Welcome back! Your last visit was " + lastVisit;
+    greetingElement.innerHTML = "Hi there! Thanks for visiting my portfolio!";
   }
+  const currentDate = new Date();
+  setCookie("lastVisit", currentDate.toLocaleString(), 365);
 }
-
-// Display welcome message on page load
-displayWelcomeMessage();
+welcomeUser();
 ```
 
 ## Submission
