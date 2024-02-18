@@ -179,4 +179,4 @@ displayWelcomeMessage();
 
 ## Submission
 
-**pandoc** is used to generate the pdf report for submission from the **README.md** file for the lab 1. I made sure all the content is rendered properly. The PDF file is named as boggulry-waph-project1.pdf
+I used Pandoc to generate a PDF report from the README.md file for lab 1, ensuring that all content was accurately rendered. The resulting PDF file is named 'mandadui-waph-project1.pdf'.
