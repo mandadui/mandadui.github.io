@@ -30,28 +30,26 @@ I created and deployed a personal website on GitHub (github.io). The website inc
 
 link to the page : https://mandadui.github.io/
 
-![Figure1](assets/img/ss1.png)
+![Figure1](assets/img/about.png)
 
 To provide viewers with a comprehensive summary of the completed coursework for the Web Application Programming and Hacking course, I have included a link in the "More" section that says, "Click here to know my coursework." This link takes you to a page that explains all the work I've done in the Web Application Programming and Hacking course. On that page, you can see what topics we've covered, giving you a good idea of how the course is going and what I've completed so far. It's an easy way for you to check out the different parts of the Web Application Programming and Hacking course.
 
-![Figure1](assets/img/ss2.png)
+![Figure1](assets/img/waph.png)
 
 ## Non Technical Requirements
 
 I used a Bootstrap-based portfolio design and enhanced its appearance with features such as navigation and a page tracker. I highlighted my professional experience to draw recruiters in, and I organized my portfolio into sections to make it easier for them to access. This streamlined approach ensures recruiters can quickly access and assess specific areas of interest in my resume.
 
-![Figure1](assets/img/ss3.png)
+![Figure1](assets/img/flag1.png)
 
 I added a page tracker at the bottom of the webpage using Flag Counter Analytics. It keeps track of the number of visitors, their countries of origin, visit times, and devices used. The details are accessible through a provided link, similar to trackers such as https://info.flagcounter.com/K8DY
 
-![Figure1](assets/img/ss6.png)
+![Figure1](assets/img/flag2.png)
 
 ```js
         <p>Check the number of visitors here:</p>
         <div><a href="https://info.flagcounter.com/K8DY"><img src="https://s11.flagcounter.com/count2/K8DY/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a></div>
 ```
-
-![Figure1](assets/img/ss5.png)
 
 ## Technical Requirements
 
@@ -59,7 +57,7 @@ I added a page tracker at the bottom of the webpage using Flag Counter Analytics
 
 In the "More" tab, I've added dynamic features like digital and analog clocks, a toggle for showing/hiding my email, and a personalized wishing feature based on the time of day, such as "GOOD MORNING!!," "GOOD AFTERNOON!!," or "GOOD EVENING!!." Utilizing jQuery and an open-source JavaScript framework, these elements add flair and functionality, enhancing the overall user experience on the website.
 
-![Figure1](assets/img/ss4.png)
+![Figure1](assets/img/react.png)
 
 ```js
 <div id="digit-clock"></div>
@@ -104,8 +102,6 @@ ReactDOM.render(React.createElement(Greeting, null),
 document.getElementById('greeting-root'));
 ```
 
-![Figure1](assets/img/ss6.png)
-
 ### Two Public APIs integration
 
 In the index.html page, I've incorporated two joke APIs. The first one, https://v2.jokeapi.dev/joke/Any, displays a random joke on the page and automatically refreshes every minute. Additionally, I've used the 'https://source.unsplash.com/random' API to showcase random graphic images on the webpage
@@ -129,8 +125,6 @@ Code for Joke api :
             </script>
 ```
 
-![Figure1](assets/img/ss7.png)
-
 Code for Random Image:
 
 ```js
@@ -146,13 +140,13 @@ fetch("https://source.unsplash.com/random")
   .catch((error) => console.error("Error fetching data:", error));
 ```
 
-![Figure1](assets/img/ss9.png)
+![Figure1](assets/img/joke.png)
 
 ### Integration of cookies
 
 I added "getCookie()" and "setCookie()" functions to personalize messages on my portfolio website. Initially welcoming users with "Hi there! Thanks for visiting my portfolio!". Upon returning, the website displays a message indicating the user's last visit along with the date
 
-![Figure1](assets/img/ss8.png)
+![Figure1](assets/img/welcomeback.png)
 
 ```js
 <div id="welcome-message"></div>;
