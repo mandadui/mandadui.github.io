@@ -10,7 +10,7 @@
 
 I am Udayani Mandadi. I have enrolled in the Web Application Programming and hacking course to enhance my technical skills in web development languages such as HTML5, JavaScript, CSS, PHP, and MySQL. And I am interested to learn about secure programming practices, web and web application development, client-side and server-side programming, Git version control, and DevOps procedures, to gain a well-rounded understanding of the field.
 
-![Udayani's headshot](assets/img/profile.jpeg)
+![Udayani's headshot](assets/img/profile.jpeg){:width="200px"}
 
 # Individual Project 1
 
